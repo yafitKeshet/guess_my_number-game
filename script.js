@@ -37,7 +37,7 @@ const againButtonEl = document.querySelector('.again');
 againButtonEl.addEventListener('click', function () {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   messageEl.textContent = 'start guessing...';
-  scoreEl.textContent = '20';
+  scoreEl.textContent = '15';
   guessEl.value = '';
   numberEl.textContent = '?';
   document.querySelector('body').style.backgroundColor = '#222';
