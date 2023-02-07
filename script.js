@@ -27,7 +27,7 @@ checkButtonEl.addEventListener('click', function () {
       messageEl.textContent = guess > secretNumber ? 'too high' : 'too low';
       scoreEl.textContent--;
     } else {
-      messageEl.textContent = 'you lost the game!';
+      messageEl.textContent = 'you lost the game :(';
       scoreEl.textContent = 0;
     }
   }
